@@ -1,0 +1,33 @@
+.flowing {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+
+    .hh {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #4e8863;
+        text-align: center;
+    }
+
+    .mt {
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .subt {
+        font-size: 18px;
+        text-align: center;
+        padding: 0 55px;
+        color: rgb(31, 31, 31);
+    }
+}
+
+a {
+    text-decoration: none;
+}

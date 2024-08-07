@@ -1,0 +1,86 @@
+.head {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(61, 61, 61, 0.664);
+    background-color: rgb(48, 47, 47);
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000000000;
+
+    .cname {
+        height: 50px;
+        width: 300px;
+        margin-right: 50px;
+        border: none;
+        background: transparent;
+        font-size: 20px;
+        font-weight: 550;
+        color: white;
+
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:active {
+            opacity: 0.7;
+        }
+    }
+
+    .hbtn {
+        height: 50px;
+        width: 125px;
+        border: none;
+        background: transparent;
+        font-size: 18px;
+        color: white;
+
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        &:active {
+            opacity: 0.9;
+        }
+    }
+
+    .email {
+        margin-left: 90px;
+        height: 40px;
+        width: 150px;
+        border: none;
+        color: white;
+        background-color: orange;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-right: 25px;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        &:active {
+            opacity: 0.9;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: o;
+}

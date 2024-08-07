@@ -1,0 +1,59 @@
+.convert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    margin-top: 70px;
+    border-top: 3px solid orange;
+
+    .kk {
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: orange;
+        font-weight: 500;
+    }
+
+    .ll {
+        font-size: 60px;
+        margin-bottom: 50px;
+    }
+
+    .jjjf {
+        font-size: 18px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+        opacity: 0.8;
+    }
+
+    .conbtn {
+        height: 50px;
+        width: 250px;
+        background-color: orange;
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        opacity: 0.8;
+        box-shadow: 5px 5px 10px orange;
+        border: 1px solid +rgba(245, 222, 179, 0.644);
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+        }
+
+        &:active {
+            opacity: 0.9;
+        }
+    }
+}
+
+
+a {
+    text-decoration: none;
+}

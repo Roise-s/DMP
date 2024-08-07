@@ -1,0 +1,105 @@
+.ms {
+    display: flex;
+    height: 573px;
+    margin-top: 70px;
+
+    .msone {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1.5;
+        padding-left: 50px;
+        background-image: url(../../assets/WhatsApp-Image-2024-07-03-at-09.06.22.jpeg);
+        background-size: cover;
+
+        .title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: white;
+
+            .bb {
+                height: 50px;
+                width: 15px;
+                border: none;
+                background-color: orange;
+                margin-right: 10px;
+            }
+
+            .titles {
+                font-size: 30px;
+                font-weight: 550;
+                border: 1px solid rgba(250, 183, 60, 0.774);
+                padding: 5px 15px;
+            }
+        }
+
+        .sub {
+            margin-bottom: 50px;
+            color: rgba(0, 0, 0, 0.788);
+            padding-right: 85px;
+            color: white;
+        }
+
+        .video {
+            height: 50px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+            background-color: orange;
+            color: white;
+            font-size: 18px;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.5;
+            }
+
+            &:active {
+                opacity: 0.9;
+                color: black;
+            }
+        }
+    }
+
+    .mstwo {
+        background-color: orange;
+        flex: 0.5;
+        padding-top: 40px;
+        padding-left: 20px;
+        text-align: center;
+        padding-right: 25px;
+
+        .os {
+            margin-bottom: 30px;
+            font-size: 25px;
+            font-weight: 550;
+        }
+
+        .dd {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: rgba(0, 0, 0, 0.664);
+
+            &:hover {
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}

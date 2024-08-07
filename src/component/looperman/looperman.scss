@@ -1,0 +1,44 @@
+.looperman {
+    display: flex;
+    margin-top: 70px;
+    padding: 0 25px;
+    margin-bottom: 50px;
+    color: white;
+
+
+    .loop {
+        flex: 1;
+        background-color: #4e8863;
+        margin: 0 15px;
+        padding-left: 10px;
+        border: 3px solid #4e8863;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.5;
+            transition: all 0.5s;
+        }
+
+        .start {
+            font-size: 70px;
+            font-weight: 700;
+            color: rgba(232,232,232,0.32);
+        }
+
+        .jj {
+            font-size: 20px;
+            font-weight: 550;
+            margin: 20px 0;
+        }
+
+        .jjs {
+            font-size: 15px;
+            padding-right: 25px;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
