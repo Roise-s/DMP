@@ -1,6 +1,7 @@
 import './App.css'
 import Convert from './component/convert/Convert'
 import Flowing from './component/flowinng/Flowing'
+import Footer from './component/footer/Footer'
 import Hallowen from './component/hallowen/Hallowen'
 import Head from './component/header/Head'
 import Looperman from './component/looperman/Looperman'
@@ -21,6 +22,7 @@ function App() {
     <Convert />
     <Hallowen />
     <Talks />
+    <Footer />
     </>
   )
 }

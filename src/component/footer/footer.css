@@ -1,0 +1,117 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.89);
+  padding-top: 70px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  border-top: 3px solid #4e8863;
+  color: white;
+}
+.footer .frt {
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer .frt .frt1 {
+  flex: 1;
+}
+.footer .frt .frt1 .qwer {
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #4e8863;
+}
+.footer .frt .frt1 .zxcdsd {
+  font-size: 18px;
+  padding-right: 15px;
+}
+.footer .frt .frt1 .numbers {
+  display: flex;
+  margin-top: 10px;
+  padding: 5px;
+}
+.footer .frt .frt1 .numbers .inner {
+  font-size: 18px;
+}
+.footer .frt .frt1 .te {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+.footer .frt .frt1 .tees {
+  text-align: center;
+  margin-bottom: 15px;
+  opacity: 0.8;
+}
+.footer .frt .frt1 .news {
+  font-size: 35px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+  font-weight: 550;
+}
+.footer .frt .frt1 .subscri {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.footer .frt .frt1 .lowwset {
+  display: flex;
+}
+.footer .frt .frt1 .lowwset .input1 {
+  height: 40px;
+  width: 230px;
+  padding-left: 5px;
+  border-top: 2px solid #4e8863;
+  border-right: 1px solid transparent;
+  border-bottom: 2px solid #4e8863;
+  border-left: 2px solid #4e8863;
+}
+.footer .frt .frt1 .lowwset .btnSet {
+  height: 44px;
+  width: 80px;
+  color: white;
+  background-color: #4e8863;
+  border-top: 2px solid #4e8863;
+  border-left: 1px solid transparent;
+  border-bottom: 2px solid #4e8863;
+  border-right: 2px solid #4e8863;
+}
+.footer .frt .frt1 .lowwset .btnSet:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.footer .frt .frt1 .lowwset .btnSet:active {
+  opacity: 0.8;
+}
+.footer .frt .frt1 .lowwset .socalBtn {
+  margin-top: 15px;
+  margin-right: 10px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #4e8863;
+  border-radius: 50px;
+}
+.footer .frt .frt1 .lowwset .socalBtn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.footer .frt .frt1 .lowwset .socalBtn:active {
+  opacity: 0.8;
+}
+.footer .low {
+  border-top: 3px solid #4e8863;
+  padding-top: 30px;
+}
+.footer .low .loxw {
+  font-size: 18px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=footer.css.map */
