@@ -10,10 +10,17 @@
     color: white;
 
     .frt {
+        @media (max-width: 800px) {
+            display: flex;
+            flex-direction: column;
+        }
         display: flex;
         margin-bottom: 50px;
         
         .frt1 {
+            @media (max-width: 800px) {
+                margin-bottom: 30px;
+            }
             flex: 1;
 
             .qwer {

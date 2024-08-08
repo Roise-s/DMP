@@ -5,12 +5,23 @@
   margin-bottom: 50px;
   color: white;
 }
+@media (max-width: 600px) {
+  .looperman {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .looperman .loop {
   flex: 1;
   background-color: #4e8863;
   margin: 0 15px;
   padding-left: 10px;
   border: 3px solid #4e8863;
+}
+@media (max-width: 600px) {
+  .looperman .loop {
+    margin-bottom: 20px;
+  }
 }
 .looperman .loop:hover {
   cursor: pointer;

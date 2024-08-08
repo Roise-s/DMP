@@ -20,11 +20,26 @@
   font-size: 60px;
   margin-bottom: 50px;
 }
+@media (max-width: 480px) {
+  .convert .ll {
+    font-size: 45px;
+  }
+}
+@media (max-width: 290px) {
+  .convert .ll {
+    font-size: 35px;
+  }
+}
 .convert .jjjf {
   font-size: 18px;
   padding-right: 30px;
   margin-bottom: 30px;
   opacity: 0.8;
+}
+@media (max-width: 380px) {
+  .convert .jjjf {
+    display: none;
+  }
 }
 .convert .conbtn {
   height: 50px;
@@ -38,6 +53,11 @@
   opacity: 0.8;
   box-shadow: 5px 5px 10px orange;
   border: 1px solidrgba(245, 222, 179, 0.644);
+}
+@media (max-width: 300px) {
+  .convert .conbtn {
+    width: 180px;
+  }
 }
 .convert .conbtn:hover {
   cursor: pointer;

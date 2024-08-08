@@ -12,6 +12,11 @@
   color: orange;
   margin-bottom: 20px;
 }
+@media (max-width: 350px) {
+  .talks .hww {
+    font-size: 25px;
+  }
+}
 .talks .long-p {
   margin-bottom: 50px;
   text-align: center;
@@ -19,9 +24,25 @@
   padding: 0 150px;
   opacity: 0.8;
 }
+@media (max-width: 300px) {
+  .talks .long-p {
+    font-size: 50px;
+  }
+}
+@media (max-width: 250px) {
+  .talks .long-p {
+    font-size: 35px;
+  }
+}
 .talks .anbox {
   display: flex;
   padding: 0 25px;
+}
+@media (max-width: 750px) {
+  .talks .anbox {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .talks .anbox .minebox {
   display: flex;
@@ -33,6 +54,11 @@
   flex: 1;
   border: 4px solid orange;
   border-radius: 8px;
+}
+@media (max-width: 750px) {
+  .talks .anbox .minebox {
+    margin-bottom: 30px;
+  }
 }
 .talks .anbox .minebox .dipics {
   height: 150px;

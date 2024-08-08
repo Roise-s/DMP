@@ -1,4 +1,8 @@
 .hallowen {
+    @media (max-width: 750px) {
+        display: flex;
+        flex-direction: column;
+    }
     display: flex;
     padding: 20px 10px;
     margin-top: 30px;
@@ -6,10 +10,16 @@
     border-top: 3px solid white;
 
     .cc {
+        @media (max-width: 750px) {
+            margin-bottom: 30px;
+        }
         display: flex;
 
         
         .imgpic {
+            @media (max-width: 450px) {
+                display: none;
+            }
             height: 150px;
             width: 150px;
             margin-right: 15px;

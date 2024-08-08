@@ -18,11 +18,20 @@
     }
 
     .ll {
+        @media (max-width: 480px) {
+            font-size: 45px;
+        }
+        @media (max-width: 290px) {
+            font-size: 35px;
+        }
         font-size: 60px;
         margin-bottom: 50px;
     }
 
     .jjjf {
+        @media (max-width: 380px) {
+            display: none;
+        }
         font-size: 18px;
         padding-right: 30px;
         margin-bottom: 30px;
@@ -30,6 +39,9 @@
     }
 
     .conbtn {
+        @media (max-width: 300px) {
+            width: 180px;
+        }
         height: 50px;
         width: 250px;
         background-color: orange;

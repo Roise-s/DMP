@@ -1,4 +1,8 @@
 .looperman {
+    @media (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+    }
     display: flex;
     margin-top: 70px;
     padding: 0 25px;
@@ -7,6 +11,9 @@
 
 
     .loop {
+        @media (max-width: 600px) {
+            margin-bottom: 20px;
+        }
         flex: 1;
         background-color: #4e8863;
         margin: 0 15px;

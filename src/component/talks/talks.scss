@@ -7,6 +7,9 @@
     margin-bottom: 50px;
 
     .hww {
+        @media (max-width: 350px) {
+            font-size: 25px;
+        }
         font-size: 35px;
         font-weight: 600;
         color: orange;
@@ -14,6 +17,12 @@
     }
 
     .long-p {
+        @media (max-width: 300px) {
+            font-size: 50px;
+        }
+        @media (max-width: 250px) {
+            font-size: 35px;
+        }
         margin-bottom: 50px;
         text-align: center;
         font-size: 70px;
@@ -22,10 +31,17 @@
     }
 
     .anbox {
+        @media (max-width: 750px) {
+            display: flex;
+            flex-direction: column;
+        }
         display: flex;
         padding: 0 25px;
 
         .minebox {
+            @media (max-width: 750px) {
+                margin-bottom: 30px;
+            }
             display: flex;
             flex-direction: column;
             justify-content: center;

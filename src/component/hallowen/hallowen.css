@@ -5,13 +5,29 @@
   margin-bottom: 50px;
   border-top: 3px solid white;
 }
+@media (max-width: 750px) {
+  .hallowen {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .hallowen .cc {
   display: flex;
+}
+@media (max-width: 750px) {
+  .hallowen .cc {
+    margin-bottom: 30px;
+  }
 }
 .hallowen .cc .imgpic {
   height: 150px;
   width: 150px;
   margin-right: 15px;
+}
+@media (max-width: 450px) {
+  .hallowen .cc .imgpic {
+    display: none;
+  }
 }
 .hallowen .cc .iner .ff {
   font-size: 25px;

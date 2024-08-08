@@ -19,6 +19,9 @@
             color: white;
 
             .bb {
+                @media (max-width: 500px) {
+                    display: none;
+                }
                 height: 50px;
                 width: 15px;
                 border: none;
@@ -27,6 +30,11 @@
             }
 
             .titles {
+                @media (max-width: 500px) {
+                    border: none;
+                    padding: 5px 0;
+                    color: orange;
+                }
                 font-size: 30px;
                 font-weight: 550;
                 border: 1px solid rgba(250, 183, 60, 0.774);
@@ -42,6 +50,9 @@
         }
 
         .video {
+            @media (max-width: 450px) {
+                width: 200px;
+            }
             height: 50px;
             width: 300px;
             border: none;
@@ -63,6 +74,9 @@
     }
 
     .mstwo {
+        @media (max-width: 700px) {
+            display: none;
+        }
         background-color: orange;
         flex: 0.5;
         padding-top: 40px;

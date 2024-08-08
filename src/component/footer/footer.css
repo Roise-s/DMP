@@ -13,8 +13,19 @@
   display: flex;
   margin-bottom: 50px;
 }
+@media (max-width: 800px) {
+  .footer .frt {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .footer .frt .frt1 {
   flex: 1;
+}
+@media (max-width: 800px) {
+  .footer .frt .frt1 {
+    margin-bottom: 30px;
+  }
 }
 .footer .frt .frt1 .qwer {
   margin-bottom: 10px;
