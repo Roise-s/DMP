@@ -1,0 +1,32 @@
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+.works .titleWorks {
+  font-size: 35px;
+  color: orange;
+  margin-bottom: 20px;
+}
+.works .workProjects {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.works .manyBtns {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 40px;
+}
+.works .manyBtns .dfbd12s {
+  height: 400px;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=work.css.map */

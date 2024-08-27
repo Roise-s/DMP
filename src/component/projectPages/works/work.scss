@@ -1,0 +1,35 @@
+.works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
+
+    .titleWorks {
+        font-size: 35px;
+        color: orange;
+        margin-bottom: 20px;
+    }
+
+    .workProjects {
+        font-size: 45px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+
+    .manyBtns {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 30px;
+        row-gap: 40px;
+
+        .dfbd12s {
+            height: 400px;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
