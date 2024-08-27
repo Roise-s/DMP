@@ -1,9 +1,14 @@
 .years {
     display: flex;
     margin: 100px 0;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 
     .years1 {
+        @media (max-width: 800px) {
+            text-align: center;
+        }
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -26,6 +31,15 @@
             margin-bottom: 25px;
             opacity: 0.8;
         }
+    }
+
+    .years2 {
+        @media (max-width: 800px) {
+            display: none;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

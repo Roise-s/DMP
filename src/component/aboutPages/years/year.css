@@ -1,6 +1,8 @@
 .years {
   display: flex;
   margin: 100px 0;
+  justify-content: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 .years .years1 {
@@ -8,6 +10,11 @@
   flex-direction: column;
   justify-content: center;
   padding: 0 20px;
+}
+@media (max-width: 800px) {
+  .years .years1 {
+    text-align: center;
+  }
 }
 .years .years1 .fuguegyuy1 {
   font-size: 30px;
@@ -23,6 +30,16 @@
   font-size: 18px;
   margin-bottom: 25px;
   opacity: 0.8;
+}
+.years .years2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .years .years2 {
+    display: none;
+  }
 }
 
 a {

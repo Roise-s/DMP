@@ -2,7 +2,15 @@
   margin-top: 70px;
   display: flex;
   height: 90vh;
+  justify-content: center;
+  align-items: center;
   background-color: orange;
+}
+@media (max-width: 800px) {
+  .mainone {
+    padding: 0;
+    margin: 0;
+  }
 }
 .mainone .mainO {
   flex: 0.5;
@@ -10,17 +18,36 @@
   padding-right: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
+@media (max-width: 800px) {
+  .mainone .mainO {
+    padding: 0;
+  }
+}
 .mainone .mainO .lkuugfhb {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
-  margin-top: 170px;
   margin-bottom: 30px;
 }
+@media (max-width: 600px) {
+  .mainone .mainO .lkuugfhb {
+    font-size: 30px;
+  }
+}
 .mainone .mainO .vcmnfbhj {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 30px;
   padding-right: 50px;
   opacity: 0.8;
+}
+@media (max-width: 600px) {
+  .mainone .mainO .vcmnfbhj {
+    font-size: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .mainone .mainO .vcmnfbhj {
+    display: none;
+  }
 }
 .mainone .mainO .dfiybids {
   font-size: 25px;
@@ -33,9 +60,13 @@
 .mainone .mainoo {
   flex: 0.5;
 }
+@media (max-width: 800px) {
+  .mainone .mainoo {
+    display: none;
+  }
+}
 .mainone .mainoo .mainooooo {
-  margin-top: 10px;
-  height: 700px;
+  height: 500px;
   width: 700px;
 }
 

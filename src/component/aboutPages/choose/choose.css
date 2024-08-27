@@ -18,11 +18,26 @@
   margin-bottom: 50px;
   font-weight: 600;
 }
+@media (max-width: 600px) {
+  .choose .euireycvchv2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .choose .euireycvchv2 {
+    font-size: 30px;
+  }
+}
 .choose .fDVF {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+}
+@media (max-width: 800px) {
+  .choose .fDVF {
+    flex-direction: column;
+  }
 }
 .choose .fDVF .dnjkvhbbh45 {
   display: flex;
@@ -32,6 +47,11 @@
   flex: 1;
   margin-right: 20px;
   border: 1px solid rgba(114, 114, 114, 0.76);
+}
+@media (max-width: 800px) {
+  .choose .fDVF .dnjkvhbbh45 {
+    margin-bottom: 30px;
+  }
 }
 .choose .fDVF .dnjkvhbbh45 .dugydfb345 {
   font-size: 35px;
