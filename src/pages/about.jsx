@@ -5,6 +5,7 @@ import Mainone from '../component/aboutPages/main/mainone'
 import Years from '../component/aboutPages/years/Years'
 import Choose from '../component/aboutPages/choose/Choose'
 import Quality from '../component/aboutPages/quality/Quality'
+import Team from '../component/aboutPages/team/Team'
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
       <Years />
       <Choose />
       <Quality />
+      <Team />
       <Footer />
     </>
   )
