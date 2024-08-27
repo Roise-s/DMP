@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css'
+import { Link } from 'react-router-dom'
 
 const Head = () => {
   return (
@@ -7,10 +8,18 @@ const Head = () => {
       <button className="cname">
         Daniel Mokopone Projects 
       </button>
-      <button className="hbtn">Home</button>
-      <button className="hbtn">About</button>
-      <button className="hbtn">Projects</button>
-      <button className="hbtn">Contact</button>
+      <button className="hbtn">
+        <Link style={{color: 'white', textDecoration: 'none'}} to='/'>Home</Link>
+      </button>
+      <button className="hbtn">
+      <Link style={{color: 'white', textDecoration: 'none'}} to='/about'>About</Link>
+      </button>
+      <button className="hbtn">
+      <Link style={{color: 'white', textDecoration: 'none'}} to='/projects'>Projects</Link>
+      </button>
+      <button className="hbtn">
+      <Link style={{color: 'white', textDecoration: 'none'}} to='/contacts'>Contacts</Link>
+      </button>
       <button className="email">Email us</button>
     </div>
   )
