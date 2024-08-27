@@ -1,3 +1,38 @@
+.dream {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 30px;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 30px;
+    color: white;
+    border-radius: 15px;
+
+    .fhbf89459 {
+        font-size: 25px;
+        margin-bottom: 20px;
+        color:  orange;
+    }
+
+    .dfbv094 {
+        font-size: 35px;
+        margin-bottom: 50px;
+        font-weight: 600;
+    }
+
+    .dreamBtn {
+        height: 50px;
+        width: 300px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        background-color: #4e8863;
+        font-size: 18px;
+    }
+}
+
 a {
     text-decoration: none;
 }
