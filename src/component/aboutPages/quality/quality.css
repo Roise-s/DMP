@@ -1,0 +1,53 @@
+.quality {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 50px;
+}
+.quality .quality1 {
+  flex: 1.2;
+}
+.quality .quality1 .dfbh2jhb {
+  margin-top: 70px;
+  font-size: 30px;
+  color: orange;
+  margin-bottom: 20px;
+}
+.quality .quality1 .jkdfbh3bjhbf {
+  font-size: 50px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+.quality .quality2 {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 40px;
+  flex: 0.8;
+  padding: 70px 50px;
+}
+.quality .quality2 .fhbb5hjbdc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  box-shadow: 5px 4px 5px orange;
+  border-right: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+.quality .quality2 .fhbb5hjbdc .djndfvb12hjdb3 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: orange;
+}
+.quality .quality2 .fhbb5hjbdc .lkdfnj166cdjkn34 {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=quality.css.map */

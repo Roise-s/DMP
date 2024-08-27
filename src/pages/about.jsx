@@ -4,6 +4,7 @@ import Footer from '../component/footer/Footer'
 import Mainone from '../component/aboutPages/main/mainone'
 import Years from '../component/aboutPages/years/Years'
 import Choose from '../component/aboutPages/choose/Choose'
+import Quality from '../component/aboutPages/quality/Quality'
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       <Mainone />
       <Years />
       <Choose />
+      <Quality />
       <Footer />
     </>
   )
