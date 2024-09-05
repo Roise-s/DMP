@@ -19,6 +19,15 @@
     }
 
     .manyBtns {
+        @media (max-width: 800px) {
+            grid-template-columns: 300px 300px;
+        }
+        @media (max-width: 650px) {
+            grid-template-columns: 300px;
+        }
+        @media (max-width: 350px) {
+            grid-template-columns: 250px;
+        }
         display: grid;
         grid-template-columns: 300px 300px 300px;
         column-gap: 30px;

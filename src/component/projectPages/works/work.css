@@ -23,6 +23,21 @@
        column-gap: 30px;
   row-gap: 40px;
 }
+@media (max-width: 800px) {
+  .works .manyBtns {
+    grid-template-columns: 300px 300px;
+  }
+}
+@media (max-width: 650px) {
+  .works .manyBtns {
+    grid-template-columns: 300px;
+  }
+}
+@media (max-width: 350px) {
+  .works .manyBtns {
+    grid-template-columns: 250px;
+  }
+}
 .works .manyBtns .dfbd12s {
   height: 400px;
 }

@@ -1,7 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './footer.css'
+import social from '../../assets/facebook.jpg'
+import social1 from '../../assets/X.jpg'
+
 
 const Footer = () => {
+    const [meets, setMeets] = useState(0)
+    
+    let meet
+
+    if(meets === 0) {
+        meet = ''
+    } else {
+        meet = 'sent'
+    }
+
   return (
     <div className='footer'>
         <div className="frt">
@@ -32,13 +45,17 @@ const Footer = () => {
                 <p className="subscri">Subscribe for deals, offers and upcoming events.</p>
                 <div className="lowwset">
                     <input type="text" className="input1" placeholder='Enter your email'/>
-                    <button className="btnSet">Send</button>
+                    <button className="btnSet" onClick={() => {setMeets(meets + 1)}}>Send</button>
                 </div>
                 <div className="lowwset">
-                    <button className="socalBtn"></button>
-                    <button className="socalBtn"></button>
-                    <button className="socalBtn"></button>
-                    <button className="socalBtn"></button>
+                    <p>{meet}</p>
+                    <button className="socalBtn">
+                        <img src={social} alt="" className='sos'/>
+                    </button>
+                    <button className="socalBtn">
+                    <img src={social1} alt="" className='sos'/></button>
+                    <button className="socalBtn">
+                    <img src={social} alt="" className='sos'/></button>
                 </div>
             </div>
         </div>
