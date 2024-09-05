@@ -27,6 +27,22 @@
         .dfbd12s {
             height: 400px;
         }
+
+        .pro3 {
+            height: 400px;
+            width: 300px;
+            border: 1px solid orange;
+            border-radius: 20px;
+
+            &:hover {
+                border: 5px solid orange;
+                transition: all ease-in 0.3s;
+            }
+
+            &::after {
+                content: 'pool';
+            }
+        }
     }
 }
 

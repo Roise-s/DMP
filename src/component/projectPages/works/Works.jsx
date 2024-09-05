@@ -1,4 +1,5 @@
 import './work.css'
+import pro3 from '../../../assets/pro3.jpeg'
 
 const Works = () => {
   return (
@@ -7,7 +8,7 @@ const Works = () => {
       <p className="workProjects">Our Projects</p>
 
       <div className="manyBtns">
-        <button className="dfbd12s">POOL</button>
+        <img src={pro3} alt="" className='pro3'/>
         <button className="dfbd12s">FOUNDATION</button>
         <button className="dfbd12s">CARPENTRY</button>
         <button className="dfbd12s">PLASTERING</button>

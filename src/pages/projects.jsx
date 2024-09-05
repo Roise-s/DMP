@@ -10,7 +10,6 @@ const Projects = () => {
   return (
     <>
       <Head />
-      <Mainone />
       <Concrete />
       <Works />
       <Dream />

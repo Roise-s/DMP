@@ -20,7 +20,10 @@ const Head = () => {
       <button className="hbtn">
       <Link style={{color: 'white', textDecoration: 'none'}} to='/contacts'>Contacts</Link>
       </button>
-      <button className="email">Email us</button>
+      <button className="email">
+        
+      <Link style={{color: 'white', textDecoration: 'none'}} to='/contacts'>Email Us</Link>
+      </button>
     </div>
   )
 }
