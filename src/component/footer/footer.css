@@ -103,8 +103,8 @@
   margin-right: 10px;
   height: 50px;
   width: 50px;
-  border: 1px solid #4e8863;
-  border-radius: 50px;
+  border: none;
+  background: transparent;
 }
 .footer .frt .frt1 .lowwset .socalBtn:hover {
   opacity: 0.5;
@@ -112,6 +112,16 @@
 }
 .footer .frt .frt1 .lowwset .socalBtn:active {
   opacity: 0.8;
+}
+.footer .frt .frt1 .lowwset .socalBtn .sos {
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+}
+.footer .frt .frt1 .lowwset .socalBtn .soss {
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
 }
 .footer .low {
   border-top: 3px solid #4e8863;

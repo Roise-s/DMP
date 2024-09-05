@@ -104,6 +104,7 @@
                     &:active {
                         opacity: 0.8;
                     }
+
                 }
 
                 .socalBtn {
@@ -111,8 +112,8 @@
                     margin-right: 10px;
                     height: 50px;
                     width: 50px;
-                    border: 1px solid #4e8863;
-                    border-radius: 50px;
+                    border: none;
+                    background: transparent;
 
                     &:hover {
                         opacity: 0.5;
@@ -121,6 +122,18 @@
 
                     &:active {
                         opacity: 0.8;
+                    }
+
+                    .sos {
+                        border-radius: 50px;
+                        height: 50px;
+                        width: 50px;
+                    }
+
+                    .soss {
+                        border-radius: 50px;
+                        height: 45px;
+                        width: 45px;
                     }
                 }
             }
@@ -135,6 +148,8 @@
             font-size: 18px;
             opacity: 0.8;
             text-align: center;
+
+
         }
     }
 }

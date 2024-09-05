@@ -51,8 +51,10 @@
   border: 5px solid orange;
   transition: all ease-in 0.3s;
 }
-.works .manyBtns .pro3::after {
-  content: "pool";
+.works .manyBtns .pppl {
+  padding: 15px 0;
+  font-size: 20px;
+  text-align: center;
 }
 
 a {

@@ -47,10 +47,12 @@
                 border: 5px solid orange;
                 transition: all ease-in 0.3s;
             }
+        }
 
-            &::after {
-                content: 'pool';
-            }
+        .pppl {
+            padding: 15px 0;
+            font-size: 20px;
+            text-align: center;
         }
     }
 }

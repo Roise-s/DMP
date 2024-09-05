@@ -50,7 +50,7 @@ const Footer = () => {
                 <div className="lowwset">
                     <p>{meet}</p>
                     <button className="socalBtn">
-                        <img src={social} alt="" className='sos'/>
+                        <img src={social} alt="" className='soss'/>
                     </button>
                     <button className="socalBtn">
                     <img src={social1} alt="" className='sos'/></button>
