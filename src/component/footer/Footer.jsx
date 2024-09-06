@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './footer.css'
 import social from '../../assets/facebook.jpg'
 import social1 from '../../assets/X.jpg'
@@ -51,10 +51,15 @@ const Footer = () => {
                 <div className="lowwset">
                     <p>{meet}</p>
                     <button className="socalBtn">
+                        <a href="https://web.facebook.com/sitepad/" target='_blank'>
                         <img src={social} alt="" className='soss'/>
+                        </a>
                     </button>
                     <button className="socalBtn">
-                    <img src={social1} alt="" className='sos'/></button>
+                        <a href="https://x.com/sitepad_editor" target='_blank'>
+                        <img src={social1} alt="" className='sos'/>
+                        </a>
+                    </button>
                     <button className="socalBtn">
                     <img src={social2} alt="" className='sos'/></button>
                 </div>
