@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './footer.css'
 import social from '../../assets/facebook.jpg'
 import social1 from '../../assets/X.jpg'
+import social2 from '../../assets/Insta.jpg'
 
 
 const Footer = () => {
@@ -55,7 +56,7 @@ const Footer = () => {
                     <button className="socalBtn">
                     <img src={social1} alt="" className='sos'/></button>
                     <button className="socalBtn">
-                    <img src={social} alt="" className='sos'/></button>
+                    <img src={social2} alt="" className='sos'/></button>
                 </div>
             </div>
         </div>
